@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+
+  <navigator open-type="navigateBack">返回</navigator>
+  
+</view>
+
+
+
+

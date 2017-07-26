@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+
+  <button type="default" bindtap="clickButton1">GET请求 新闻列表</button>
+  <button type="default" bindtap="clickButton2">GET请求 LeanCloud</button>
+  <button type="default" bindtap="clickButton3">POST请求 上报经纬度</button>
+  <button type="default" bindtap="clickButton4">GET请求 用户登录</button>
+  <button type="default" bindtap="clickButton5">POST请求 用户注册</button>
+
+  <button type="default" bindtap="login">用户登录</button>
+
+  <text>接口返回内容:{{result}}</text>
+  
+</view>
